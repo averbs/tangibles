@@ -1,0 +1,135 @@
+html, body {
+  background: #1A1A1A;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+h1 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 76px;
+  font-size: 66px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0px;
+}
+h2 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 16px;
+  text-align: center;
+  color: #626262;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+#navigation {
+  width: 100%;
+  background: #212121;
+  padding: 2em;
+}
+
+.credit {
+  font-family: Work Sans;
+  font-size: 13px;
+  color: #626262;
+}
+.tagline {
+  border-left: 1px solid #626262;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+#footer, #footer a {
+  color: #2E2E2E;
+}
+.caps {text-transform: uppercase;}
+a {
+  font-size: 16px;
+  color: #626262;
+  transition: all 0.35s ease-out;
+}
+#navigation a {
+  text-transform: uppercase;
+  padding-left: 32px;
+}
+a:hover {
+  color: white !important;
+}
+.hero {
+  margin: 4em 0em;
+}
+.product-card {
+  background: white;
+  border-radius: 4px;
+  position: relative;
+  top: 0px;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
+.product-card:hover {
+  box-shadow: 0 11px 18px 0 rgba(0,0,0,0.07);
+  border-radius: 4px;
+  position: relative;
+  top: -10px;
+}
+.product-card img {
+  padding: 24px;
+}
+.image-block {
+  min-height: 250px;
+  width: 100%;
+  background-image: url('../images/ember-black.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  display: inline-block;
+}
+.title {
+  font-size: 14px;
+  color: #3B3B3B;
+  padding: 0px 16px 16px 16px;
+  margin-bottom: 8px;
+}
+.price {
+  line-height: 36px;
+  font-size: 16px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #626262;
+  border-radius: 4px 0px 0px 4px;
+  position: absolute;
+  right: 0px;
+  padding: 4px 12px;
+  margin-bottom: 16px;
+}
+#footer {
+  background: #626262;
+  width: 100%;
+  margin-top: 4em;
+  padding-top: 8em;
+}
+ul, li {
+  list-style-type: none;
+}
+.credit-footer {
+  border-top: 2px solid #2E2E2E;
+  margin-top: 8em;
+  padding: 2em 0em;
+  font-size: 12px;
+}
+.credit-footer a {
+  padding-left: 10px;
+    font-size: 12px;
+}
+.collection {
+  font-size: 12px;
+  padding: 16px;
+  color: #626262;
+  display: block;
+  width: 100%;
+}
