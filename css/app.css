@@ -55,6 +55,9 @@ a {
   text-transform: uppercase;
   padding-left: 32px;
 }
+#navigation a.logo {
+  padding-left: 0px;
+}
 a:hover {
   color: white !important;
 }
@@ -124,7 +127,7 @@ ul, li {
 }
 .credit-footer a {
   padding-left: 10px;
-    font-size: 12px;
+  font-size: 12px;
 }
 .collection {
   font-size: 12px;
