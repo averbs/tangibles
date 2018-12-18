@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/lights.css">
+    <link rel="stylesheet" href="css/tooltips.css">
     <script type="text/javascript">
     $(document).foundation();
       function toggleDarkLight() {
@@ -18,7 +19,9 @@
     </script>
   </head>
   <body id="body" class="dark-mode">
-    <div class="switch" name="dark_light" onclick="toggleDarkLight()" title="Toggle Dark/light Mode"></div>
+    <!-- <div class="switch" name="dark_light" onclick="toggleDarkLight()" title="Toggle Dark/light Mode" data-tooltip  data-position="left" data-alignment="center"></div> -->
+
+    <div class="switch tooltip-left" name="dark_light" onclick="toggleDarkLight()" title="Toggle Dark/light Mode" data-tooltip="Dark/Light"></div>
     <div id="navigation">
       <div class="grid-container">
         <div class="grid-x grid-padding-x">
@@ -34,6 +37,31 @@
         </div><!-- grid-x -->
       </div><!-- grid-container -->
     </div><!-- navigation -->
+
+    <div id="collection-list">
+      <ul>
+        <li><a href="">Art</a></li>
+        <li><a href="">Barware</a></li>
+        <li><a href="">Biohacking</a></li>
+        <li><a href="">Books</a></li>
+        <li><a href="">Carry</a></li>
+        <li><a href="">Clothing</a></li>
+        <li><a href="">Coffee</a></li>
+        <li><a href="">Cooking</a></li>
+        <li><a href="">Fitness</a></li>
+        <li><a href="">Furniture</a></li>
+        <li><a href="">Hardware</a></li>
+        <li><a href="">Homegoods</a></li>
+        <li><a href="">Hygeine</a></li>
+        <li><a href="">Music</a></li>
+        <li><a href="">Office</a></li>
+        <li><a href="">Software</a></li>
+        <li><a href="">Sunglasses</a></li>
+        <li><a href="">Tea</a></li>
+        <li><a href="">Technology</a></li>
+        <li><a href="">Wristwear</a></li>
+      </ul>
+    </div><!-- collection-list -->
 
     <div class="grid-container">
       <div class="grid-x grid-padding-x">
