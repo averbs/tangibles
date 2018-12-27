@@ -87,6 +87,7 @@ body.light-mode {
     overflow: auto;
     white-space: nowrap;
     padding-left: 1.25em;
+    -webkit-overflow-scrolling: touch;
   }
   /* #collection-list ul {
     margin: 0px;
@@ -103,7 +104,7 @@ body.light-mode {
       display: inline-block;
       padding: 18px;
     }
-    #collection-list a:hover {
+    #collection-list a:hover, #footer a:hover {
       color: white;
     }
 .light-mode #collection-list {
