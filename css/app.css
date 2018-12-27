@@ -59,7 +59,7 @@ a {
   padding-left: 0px;
 }
 a:hover {
-  color: white !important;
+  color: white;
 }
 .hero {
   margin: 4em 0em;

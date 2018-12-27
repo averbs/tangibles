@@ -84,22 +84,34 @@ body.light-mode {
     background: #626262;
     padding: 0px 0px;
     height: 60px;
-    width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
+    overflow: auto;
     white-space: nowrap;
+    padding-left: 1.25em;
   }
-  #collection-list ul {
+  /* #collection-list ul {
     margin: 0px;
     margin-left: 1.25em;
-  }
-  #collection-list ul li {
+  }*/
+  /* #collection-list ul li {
     color: #2E2E2E;
     float: left;
     padding: 18px;
-    flex: 0 0 auto;
-  }
-    #collection-list ul li a {
+
+  }*/
+    #collection-list a {
       color: #2e2e2e;
+      display: inline-block;
+      padding: 18px;
     }
+    #collection-list a:hover {
+      color: white;
+    }
+.light-mode #collection-list {
+  background: #fff;
+}
+.light-mode #collection-list a {
+  color: #afafaf;
+}
+.light-mode #collection-list a:hover {
+  color: #626262;
+}
